@@ -28,8 +28,7 @@ const itemVariants: Variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.6,
-      ease: [0.22, 1, 0.36, 1], // ✅ safe easing
+      duration: 0.6
     },
   },
 };
@@ -46,8 +45,7 @@ export default function Hero() {
           animate={{ scale: [1, 1.2, 1], opacity: [0.15, 0.25, 0.15] }}
           transition={{
             duration: 8,
-            repeat: Infinity,
-            ease: [0.42, 0, 0.58, 1],
+            repeat: Infinity
           }}
           className="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-violet-600/20 blur-3xl"
         />
@@ -56,8 +54,7 @@ export default function Hero() {
           transition={{
             duration: 10,
             repeat: Infinity,
-            delay: 2,
-            ease: [0.42, 0, 0.58, 1],
+            delay: 2
           }}
           className="absolute -bottom-40 -right-40 w-[500px] h-[500px] rounded-full bg-purple-600/15 blur-3xl"
         />
@@ -66,8 +63,7 @@ export default function Hero() {
           transition={{
             duration: 12,
             repeat: Infinity,
-            delay: 4,
-            ease: [0.42, 0, 0.58, 1],
+            delay: 4
           }}
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-violet-500/10 blur-3xl"
         />
@@ -170,8 +166,7 @@ export default function Hero() {
           animate={{ y: [0, 8, 0] }}
           transition={{
             duration: 1.5,
-            repeat: Infinity,
-            ease: [0.42, 0, 0.58, 1],
+            repeat: Infinity
           }}
           className="text-violet-500"
         >

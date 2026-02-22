@@ -51,7 +51,7 @@ export default function About() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, ease: [0.42, 0, 0.58, 1] }}
+          transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
           <span className="section-tag">About Me</span>
@@ -99,8 +99,7 @@ export default function About() {
                     viewport={{ once: true }}
                     transition={{
                       duration: 0.5,
-                      delay: i * 0.15,
-                      ease: [0.42, 0, 0.58, 1],
+                      delay: i * 0.15
                     }}
                   >
                     <div className="glass rounded-xl p-4">
@@ -132,8 +131,7 @@ export default function About() {
                   viewport={{ once: true }}
                   transition={{
                     duration: 0.4,
-                    delay: i * 0.08,
-                    ease: [0.42, 0, 0.58, 1],
+                    delay: i * 0.08
                   }}
                   whileHover={{ scale: 1.05 }}
                   className="glass rounded-xl p-5 flex items-center gap-4"
